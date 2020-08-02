@@ -1,5 +1,6 @@
-import java.util.ArrayList;
-import java.util.Collections;
+package 面试.所有排列问题;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
