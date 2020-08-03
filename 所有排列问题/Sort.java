@@ -212,7 +212,6 @@ public class Sort {
                 for (int j = 0; j < temp.size(); j++){
                     resultArr.add(temp.get(j));
                 }
-
             }
         }
         return resultArr;

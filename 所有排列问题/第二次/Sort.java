@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package 面试.所有排列问题.第二次;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
