@@ -5,12 +5,10 @@ public class Solution {
         int dp[][] = new int[m][n];
         for (int i =0;i<m;i++){
             int val = i==0? 0:dp[i-1][0];
-            System.out.println(val);
             dp[i][0] = grid[i][0] + val;
         }
         for (int i = 0;i<n;i++){
             int val = i==0? 0:dp[0][i-1];
-            System.out.println(val);
             dp[0][i] = grid[0][i] + val;
         }
 
